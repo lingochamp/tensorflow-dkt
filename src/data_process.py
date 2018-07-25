@@ -17,7 +17,7 @@ def read_file(dataset_path):
 def split_dataset(seqs_by_student, sample_rate=0.2, random_seed=1):
     sorted_keys = sorted(seqs_by_student.keys())
     random.seed(random_seed)
-    test_keys = random.sample(sorted_keys, int(len(sorted_keys) * sample_rate))
+    test_keys = set(random.sample(sorted_keys, int(len(sorted_keys) * sample_rate)))
     test_seqs = [seqs_by_student[k] for k in seqs_by_student if k in test_keys]
     train_seqs = [seqs_by_student[k] for k in seqs_by_student if k not in test_keys]
     return train_seqs, test_seqs
