@@ -3,4 +3,4 @@
 `$python train_dkt.py --dataset ../data/assistments.txt`
 
 # Blog
-http://blog.kintoki.me/2017/06/06/tensorflow-dkt/
+https://www.cnblogs.com/jinxulin/articles/15729942.html
