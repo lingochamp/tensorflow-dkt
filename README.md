@@ -3,4 +3,4 @@
 `$python train_dkt.py --dataset ../data/assistments.txt`
 
 # Blog
-https://www.cnblogs.com/jinxulin/articles/15729942.html
+https://www.cnblogs.com/jinxulin/p/15729997.html
